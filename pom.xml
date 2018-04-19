@@ -7,7 +7,7 @@
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
-	<name>Battleship</name>
+	<name>Battleship V1</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
