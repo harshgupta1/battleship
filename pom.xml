@@ -65,7 +65,7 @@
 				<artifactId>maven-checkstyle-plugin</artifactId>
 				<version>3.0.0</version>
 				<configuration>
-					<configLocation>../conf/SSC_Checkstyle_Configuration.xml</configLocation>
+					<configLocation>conf/SSC_Checkstyle_Configuration.xml</configLocation>
 					<encoding>UTF-8</encoding>
 					<consoleOutput>true</consoleOutput>
 					<failsOnError>true</failsOnError>
