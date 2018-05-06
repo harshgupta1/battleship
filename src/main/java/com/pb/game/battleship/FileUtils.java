@@ -5,7 +5,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import lombok.extern.slf4j.*;
 
+@Slf4j
 public class FileUtils {
 
 	public static List<String> readFile(String fileName) {
@@ -26,7 +28,7 @@ public class FileUtils {
 			}
 			scanner.close();
 		} catch (IOException e) {
-			e.printStackTrace();
+			log.error("Error while reading from file", e);
 		}
 		return input;
 	}
