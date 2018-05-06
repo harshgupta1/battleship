@@ -139,10 +139,11 @@
 			<activation>
 				<activeByDefault>true</activeByDefault>
 			</activation>
+			<!--
 			<properties>
-				<!-- Sonar server URL -->
 				<sonar.host.url>http://54.237.195.10:9000</sonar.host.url>
 			</properties>
+			-->
 		</profile>
 	
 	</profiles>
