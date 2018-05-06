@@ -12,7 +12,6 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<sonar.host.url>http://54.237.195.10:9000/</sonar.host.url>
 		<sonar.jacoco.reportPaths>${project.build.directory}/jacoco.exec</sonar.jacoco.reportPaths>
 		<sonar.groovy.binaries>target/classes</sonar.groovy.binaries>
 	</properties>
