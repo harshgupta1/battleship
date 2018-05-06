@@ -132,19 +132,19 @@
 				</plugins>
 			</build>
 		</profile>
-		
+		<!--
 		<profile>
 			<id>sonar</id>
 			<activation>
 				<activeByDefault>true</activeByDefault>
 			</activation>
-			<!--
+			
 			<properties>
 				<sonar.host.url>http://54.237.195.10:9000</sonar.host.url>
 			</properties>
-			-->
+			
 		</profile>
-	
+		-->
 	</profiles>
 	<!-- Sonar END -->
 
