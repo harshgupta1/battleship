@@ -56,7 +56,7 @@ public class BattleArea {
 	public void addShip(Ship ship, String location) {
 		this.ship[nextShipPosition++] = ship;
 		char yCoord = location.charAt(0);
-		int xCoord = new Integer(location.substring(1));
+		int xCoord = Integer.parseInt(location.substring(1));
 		if (xCoord < ship.getMinWidth() || xCoord > ship.getMaxWidth()) {
 			throw new InvalidShipCoordinatesException("Invalid Ship Corridinate : x[" + xCoord + "], " 
 						+ " X Coordinate must be between(inclusive) " + ship.getMinWidth() + " and " + ship.getMaxWidth());
